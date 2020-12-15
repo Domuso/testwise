@@ -69,7 +69,22 @@ testwise
 
 Here is an example output:
 ```
-
+┌────────────────────────────────────────────────────────────────────────────────┐
+│ * coverage - 6 / 16 (37%)                                                      │
+├────────────────────────────────────────────────────────────────────────────────┤
+│ Missing Sets:                                                                  │
+├────────────────────────────────────────────────────────────────────────────────┤
+│ negative-charge|red                                                            │
+│ positive-spin|red                                                              │
+│ green|positive-charge                                                          │
+│ green|negative-charge                                                          │
+│ green|positive-spin                                                            │
+│ green|negative-spin                                                            │
+│ blue|positive-charge                                                           │
+│ blue|positive-spin                                                             │
+│ positive-charge|positive-spin                                                  │
+│ negative-charge|positive-spin                                                  │
+└────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 Testwise will run with these defaults:
