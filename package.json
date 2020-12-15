@@ -1,0 +1,31 @@
+{
+  "name": "testwise",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.4",
+    "cli-table3": "^0.6.0",
+    "colors": "^1.4.0",
+    "commander": "^6.2.1"
+  },
+  "bin": {
+    "testwise": "./bin/testwise.js"
+  },
+  "main": "./lib/testwise.js", 
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "lodash": "^4.17.20",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "yaml": "^1.10.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive test/**/*.spec.js",
+    "cover": "nyc --check-coverage --lines 100 npm test"
+  },
+  "author": "",
+  "license": "ISC"
+}

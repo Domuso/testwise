@@ -1,0 +1,18 @@
+version: 1.0
+suites:
+  particle:
+    description: all the various combinations of parameters
+    parameters:
+      - name: color
+        values:
+          - red
+          - green
+          - blue
+      - name: charge
+        values:
+          - positive-charge
+          - negative-charge
+      - name: spin
+        values:
+          - positive-spin
+          - negative-spin
