@@ -6,10 +6,11 @@ const fs = require("fs");
 const YAML = require("yaml");
 const Table = require('cli-table3');
 const colors = require('colors')
+const package = require('../package');
 
 let program = new commander.Command();
 
-program.version('0.0.1');
+program.version(package.version);
 
 program
   .option('-n, --n <number>', 'the number n for n-wise coverage', 2)
