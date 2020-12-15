@@ -35,7 +35,7 @@ let numSuites = Object.keys(report).length;
 
 const table = new Table({
   head: header,
-  colWidths: Array(numSuites).fill(80),
+  colWidths: Array(numSuites).fill(40),
   wordWrap: true
 });
 table.push([{colSpan: numSuites, content: 'Missing Sets:'}])
