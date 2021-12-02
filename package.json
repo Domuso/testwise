@@ -27,5 +27,8 @@
     "cover": "nyc --check-coverage --lines 100 npm test"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
